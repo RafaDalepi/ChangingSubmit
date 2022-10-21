@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    left: 50%;
+}
+
+li{
+    list-style: none;
+}
+button{
+    top: 60%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:35px;
+    width:35px;
+    border-radius:100px;
+    border:0px;
+    inline-size: 100px;
+    background-color: lightskyblue;
+    transition: 0.1s;
+}
