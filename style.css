@@ -7,12 +7,19 @@ body{
     left: 50%;
 }
 
+ul{
+    display: inline;
+    margin-inline-start: 40vw;
+}
+
 li{
     list-style: none;
 }
+
 button{
-    top: 60%;
-    position:absolute;
+    top: 65%;
+    left: 50%;
+    position: absolute;
     transform:translate(-50%,-50%);
     height:35px;
     width:35px;
@@ -20,5 +27,11 @@ button{
     border:0px;
     inline-size: 100px;
     background-color: lightskyblue;
-    transition: 0.1s;
+    transition-duration: 0.1s;
+}
+
+button:hover{
+    background-color: rgb(60, 180, 255);
+    inline-size: 90px;
+    cursor: pointer;
 }
