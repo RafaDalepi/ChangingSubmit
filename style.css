@@ -5,6 +5,7 @@ body{
     display: flex;
     align-items: center;
     left: 50%;
+    background-color: rgb(43, 43, 43);
 }
 
 ul{
@@ -13,6 +14,7 @@ ul{
 }
 
 li{
+    color: aliceblue;
     list-style: none;
 }
 
@@ -31,6 +33,7 @@ button{
 }
 
 button:hover{
+    border:0px;
     background-color: rgb(60, 180, 255);
     inline-size: 90px;
     cursor: pointer;
