@@ -4,23 +4,26 @@ body{
     overflow:hidden;
     display: flex;
     align-items: center;
-    left: 50%;
+    /* left: 50%; */
     background-color: rgb(43, 43, 43);
 }
 
 ul{
-    display: inline;
+    display: block;
     margin-inline-start: 40vw;
 }
 
-li{
+.login-menu{
     color: aliceblue;
+    align-items: center;
     list-style: none;
+    margin: 15px;
 }
 
-button{
+.submit-button{
     top: 65%;
-    left: 50%;
+    /* left: 50%; */
+    align-items: center;
     position: absolute;
     transform:translate(-50%,-50%);
     height:35px;
@@ -32,7 +35,7 @@ button{
     transition-duration: 0.1s;
 }
 
-button:hover{
+.submit-button:hover{
     border:0px;
     background-color: rgb(60, 180, 255);
     inline-size: 90px;
