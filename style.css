@@ -4,7 +4,6 @@ body{
     overflow:hidden;
     display: flex;
     align-items: center;
-    /* left: 50%; */
     background-color: rgb(43, 43, 43);
 }
 
@@ -22,7 +21,6 @@ ul{
 
 .submit-button{
     top: 65%;
-    /* left: 50%; */
     align-items: center;
     position: absolute;
     transform:translate(-50%,-50%);

@@ -4,7 +4,7 @@ let iterator = 0;
 
 
 myInput.onkeydown = function(){
-	let characters = /[a-z]/g /* && /[A-Z]/g && /[0-9]/g && /\W|_/g */;
+	let characters = /[a-z]/g && /[A-Z]/g && /[0-9]/g && /\W|_/g;
 	
 	if(myInput.value.match(characters) && myInput.value.length > 8){
 		myInput.style.backgroundColor = "#8be78b"
@@ -14,7 +14,6 @@ myInput.onkeydown = function(){
 	}else{
 		myInput.style.backgroundColor = "#f1a9a9"
 		console.log("teste");
-		// var wa = await(2);
 		submitButton.onmouseenter = () =>{
 			iterator++;
 			iterator = iterator % 2;
@@ -26,4 +25,3 @@ myInput.onkeydown = function(){
 		}
 	}
 }
-d
